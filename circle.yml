@@ -1,0 +1,8 @@
+general:
+  branches:
+    only:
+      - master
+
+test:
+  override:
+    - bash ci.sh 
